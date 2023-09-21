@@ -31,7 +31,7 @@ namespace leetcode.roman_to_integer
                 else
                     current_number = 1000;
 
-                if (current_number > previous_number)
+                if (current_number >= previous_number)
                     result += current_number;
                 else
                     result -= current_number;
